@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/api/baidu-token"
+  to = "https://aip.baidubce.com/oauth/2.0/token"
+  status = 200
+
+[[redirects]]
+  from = "/api/baidu-asr"
+  to = "https://vop.baidu.com/server_api"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

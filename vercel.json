@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/baidu-token", "destination": "https://aip.baidubce.com/oauth/2.0/token" },
+    { "source": "/api/baidu-asr", "destination": "https://vop.baidu.com/server_api" }
+  ]
+}
